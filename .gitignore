@@ -1,26 +1,27 @@
-﻿#############
-## Idea
-#############
-target/
-.idea/
-.idea
-.repository/
-*.iml
-*.iws
-*.jrtc
-*.java
-*.class
-*.info
-*.properties
-*.jar
+/* 
+Правило треугольника
+*/
 
-/1.JavaSyntax/
-/2.JavaCore/
-/3.JavaMultithreading/
-/4.JavaCollections/
-/5.OnlineInternship/
-/out/
-/JavaRushPlugin.properties
-/Instruction.png
-/out.log
-/out.log.*
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        //напишите тут ваш код
+     BufferedReader st = new BufferedReader(new InputStreamReader(System.in));
+        String stFirst = st.readLine();
+        String stSecond = st.readLine();
+        String stThird = st.readLine();
+        int a = Integer.parseInt(stFirst);
+        int b = Integer.parseInt(stSecond);
+        int c = Integer.parseInt(stThird);
+        
+        if
+        ((a+b) <= c | (b + c) <= a | (c + a) <= b)
+        System.out.println("Треугольник не существует.");
+        
+        else 
+        
+        System.out.println("Треугольник существует.");
+}
+}
